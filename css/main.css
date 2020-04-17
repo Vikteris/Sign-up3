@@ -14,11 +14,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow:0 5px 9px rgba(0,0,0,0.09),0 4px 2px rgba(0,0,0,0.09),0 8px 4px rgba(0,0,0,0.09),0 16px 8px rgba(0,0,0,0.09),0 32px 40px rgba(0,0,0,0.09);
+     
     
 }
     .container > .left {
         background-color: blue;
-        width:50%;
+        width: 60%;
         float: left;
         background: url(../img/background.png);
         background-position: center;
@@ -29,43 +32,52 @@ body {
     }
      .left > .Logo {
          position: relative;
-         top: 30px;
+         top: 40px;
          left: 40px;
 
      }
      .left > .link {
          position: absolute;
-         left: 80px;
+         left: 100px;
          bottom: 20px;
-         right: 80px;
+         right: 100px;
      } 
         .left > .link > p {
             color: #FEFEFF;
             position: relative;
-            left:80px;
+            left: 100px;
             bottom: 20px;
-            right: 80px;
+            right: 100px;
 
         }
     .container > .right {
         background-color:#fff;
-        width: 50%;
+        width: 40%;
         float: right;
-        padding: 150px;
+        padding: 140px;
         padding-left: 60px;
         padding-right: 60px;
-        text-align: center;
+        text-align: left;
+        ;
+        
         
 
     }
         .right > h1 {
-            font-size: 30px;
+            font-size: 24px;
+            text-align: left;
+            color: #212630;
+            line-height: 30px;
+            margin-bottom: 25px;
             
             
         }
         
         .right > p {
-            font-size: 15px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            text-align: start;
+            line-height: 20px;
 
 
         }
@@ -86,8 +98,10 @@ body {
                     width: 100%;
                     font-size: 25px;
                     border: none;
-                    border-radius: 5px;
+                    border-radius: 5px;                    ;
                     background-color: #F8F9FE;
+                    
+                    
                 }   
                     form > .form-row > input:focus {
                         outline: none;
@@ -96,9 +110,22 @@ body {
                     text-decoration: none;
                     color:#6C73E5;
                     margin-right: 15px;
+                    float:left;
+                    font-size: 12px;
+                    line-height: 20px;
                     
                 }
                 form > .form-row > .btn {
-
+                    background-color: #4959E2;
+                    font-size: 15px;
+                    color: #fff;
+                    float: right;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-radius: 5px;
+                    line-height: 20px;
+                    box-shadow:0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15);
                 }
             
